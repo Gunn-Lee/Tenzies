@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0B2434;
+  font-family: Karla;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 30px;
+  padding: 33px;
+  width: 400px;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  color: #2B283A;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.textbox {
+  margin: auto;
+  width: 235px;
+  color: #4A4E74;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.die-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.die {
+    grid-row: span 1;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 3.57447px 3.57447px rgba(0, 0, 0, 0.1);
+}
+.die-number {
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  color: #2B283A;
+}
+
+.roll-button {
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035FF;
+  cursor: pointer;
+}
