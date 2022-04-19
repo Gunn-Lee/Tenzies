@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  margin: auto;
+  display: column;
+  justify-items: center;
+  background-color: grey;
+}
+
+.todo {
+  margin-top: 40px;
+  display: column;
+  justify-content: center;
+  text-align: center;
+}
+.todo-input {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.input-top {
+  height: 30px;
+  width: 300px;
+  background-color: lightgrey;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid darkgrey;
+  padding: 0 10px 0 10px;
+}
+
+.add-btn {
+  height: 30px;
+  background-color: lightgrey;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid darkgrey;
+  cursor: pointer;
+
+}
+
+.todo--post {
+  display: column;
+  justify-content: center;
+  padding-top: 20px;
+  margin: auto;
+}
+.todo-content {
+  display: flex;
+  text-align: center;
+  max-width: 450px;
+  padding: 5px 10px 0px 10px;
+  margin: auto;
+}
+
+.todo-content span {
+    text-align: left;
+    width: 350px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.delete-btn {
+  background-color: darkgrey;
+  text-decoration: none;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid darkgrey;
+  cursor: pointer;
+}
+
+.todo-block {
+  display: column;
+}
+
+.todo-edit {
+  max-width: 300px;
+}
